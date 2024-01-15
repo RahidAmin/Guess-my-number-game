@@ -33,7 +33,7 @@ document.querySelector('.check').addEventListener('click',function()
         displayMessage('🎉Correct Number');
         document.querySelector('.number').textContent=secretNumber;
 
-        document.querySelector('body').style.backgroundColor='#52A666';
+        document.querySelector('body').style.backgroundColor='#c4c4fc';
         document.querySelector('.number').style.width='25rem';
       
         if(highScore<score)
